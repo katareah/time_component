@@ -1,3 +1,7 @@
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install -c conda-forge cupy cudatoolkit=11.7
+pip install git+https://github.com/tgcsaba/ksig.git --no-deps
+pip install -r requirements.txt
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
